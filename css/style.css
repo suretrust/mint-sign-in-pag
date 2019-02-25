@@ -41,6 +41,12 @@ input, button {
     padding: 8px;
 }
 
+input[type="password"] {
+    background-image: url("../img/unlocked.png");
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+}
+
 #call{
     font-size: 10px;
 }
@@ -48,7 +54,9 @@ input, button {
 button {
     font-size: 16px;
     border-radius: 5px;
-    background: linear-gradient(to bottom,#167CCC 0,#0077C5 100%);
+    background-image: url("../img/locked.png"), linear-gradient(to bottom,#167CCC 0,#0077C5 100%);
+    background-repeat: no-repeat;
+    background-position: 25% 50%;
     color: #ffffff;
     padding: 15px;
 }
