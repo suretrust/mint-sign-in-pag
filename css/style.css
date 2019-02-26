@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     background-color: #ECEEF1;
     margin: 40px;
 }
@@ -90,4 +90,8 @@ footer {
     background-image: url("https://accounts.intuit.com/images/v2/ecosystem_logos_new.png");
     background-position-y: 27px;
 
+}
+
+.center {
+    text-align: center;
 }
